@@ -29,12 +29,12 @@ int main(int argc, char *argv[])
 				recv = now;
 				break;
 			}
-			if (now > sent + 1000000000)
+			if (now > sent + 1000000000)  // timeout of 1 second
 				break;
 		}
 
 		if (recv)
-			printf("took %.6f\n", (recv - sent) / 1000000.);
+			printf("took %.6f ms\n", (recv - sent) / 1000000.);
 
 		nr = (nr + 1) & 127;
 
