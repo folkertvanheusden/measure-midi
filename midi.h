@@ -1,3 +1,5 @@
+// by folkert van heusden <folkert@vanheusden.com>
+// MIT license
 #include <rtmidi/RtMidi.h>
 
 

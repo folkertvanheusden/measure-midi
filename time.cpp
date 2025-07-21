@@ -1,3 +1,5 @@
+// by folkert van heusden <folkert@vanheusden.com>
+// MIT license
 #include <cerrno>
 #include <chrono>
 #include <cstring>
