@@ -17,7 +17,6 @@ int main(int argc, char *argv[])
 
 	uint8_t nr = 0;
 	for(;;) {
-		uint64_t start = get_ns();
 		send_midi_note(out, 9, nr, 127);
 		uint64_t sent  = get_ns();
 
