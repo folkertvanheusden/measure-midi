@@ -9,3 +9,5 @@ Then:
     ./build/measure-midi
 
 then using e.g. helvum or qpwgraph route the output of this program into is input.
+
+On debian-systems, this program requires librtmidi-dev, on redhat-alike (rpm) it uses rtmidi-devel.
